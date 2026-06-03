@@ -464,7 +464,7 @@ h2 {
   filter: saturate(.88) contrast(.97);
 }
 
-.view-photo {
+.view-Photo {
   position: absolute;
   right: 14px;
   bottom: 14px;
@@ -481,18 +481,18 @@ h2 {
   transition: transform .18s ease, background .18s ease;
 }
 
-.view-photo:hover {
+.view-Photo:hover {
   transform: translateY(-2px);
   background: white;
 }
 
-.view-photo svg {
+.view-Photo svg {
   width: 21px;
   height: 21px;
   fill: currentColor;
 }
 
-.photo-lightbox {
+.Photo-lightbox {
   position: fixed;
   inset: 0;
   z-index: 50;
@@ -503,11 +503,11 @@ h2 {
   background: rgba(12, 18, 24, .88);
 }
 
-.photo-lightbox.open {
+.Photo-lightbox.open {
   display: flex;
 }
 
-.photo-lightbox img {
+.Photo-lightbox img {
   width: auto;
   max-width: 96vw;
   max-height: 92vh;
