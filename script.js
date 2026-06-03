@@ -18,11 +18,11 @@ form.addEventListener("submit", (e) => {
 });
 
 const lightbox = document.createElement("div");
-lightbox.className = "photo-lightbox";
+lightbox.className = "Photo-lightbox";
 lightbox.setAttribute("role", "dialog");
 lightbox.setAttribute("aria-modal", "true");
 lightbox.innerHTML = `
-  <button class="close-lightbox" type="button" aria-label="Close fullscreen photo">×</button>
+  <button class="close-lightbox" type="button" aria-label="Close fullscreen Photo">×</button>
   <img src="" alt="">
 `;
 document.body.appendChild(lightbox);
@@ -52,7 +52,7 @@ function closeGalleryPhoto() {
 
 document.querySelectorAll(".gallery-item").forEach(item => {
   const image = item.querySelector("img");
-  const button = item.querySelector(".view-photo");
+  const button = item.querySelector(".view-Photo");
 
   button.addEventListener("click", () => openGalleryPhoto(image));
 });
