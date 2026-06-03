@@ -14,7 +14,33 @@
   --blue: #dce8ee;
   --shadow: 0 10px 30px rgba(32, 45, 66, 0.075);
 }
+.footer-credit{
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid #e5e7eb;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6b7280;
+    line-height: 1.6;
+}
 
+.footer-credit a{
+    color: #6d28d9; /* DTverse-style purple */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.25s ease;
+}
+
+.footer-credit a:hover{
+    color: #7c3aed;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px){
+    .footer-credit{
+        font-size: 0.85rem;
+    }
+}
 * {
   box-sizing: border-box;
   margin: 0;
